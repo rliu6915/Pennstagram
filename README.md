@@ -1,6 +1,13 @@
 # Overview
 Pennstagram is a photo sharing social networking MERN app created in 2022. This app allows users to upload posts publicly or keep the posts only visible to themselves. As a social networking app, Pennstagram also allows users to browse other users' profile contents, like and comment photos and mention other users in a post. Users can follow/unfollow other users and they can get personal follower suggestions according to our recommendation rules. Session management and Security setting are also considered in our app.
 
+# Features
+✅ User registration ✅ Login/Auth ✅ Session management ✅ Security: account lockout policy ✅ @mentions in comments
+
+✅ Create post/Photo upload ✅ Editing/Deleting Posts (photo) & Comments ✅ Activity feed ✅ Photo likes & unliking
+
+✅ Follow/unfollow users ✅ Follower suggestions ✅ Live updates ✅infinite scroll ✅ Privacy / Visibility control on photos
+
 # Deployment with Heroku
 https://pennstagram.herokuapp.com
 
