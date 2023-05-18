@@ -39,7 +39,11 @@ We use the MVC (Model-View-Controller) Restful architecture. Our interactive doc
 https://app.swaggerhub.com/apis/cis557group32/Pennstagram/1.2.0
 
 
-### `npm start`
+# Instructions
+To run the app locally, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open a command prompt in the "api" folder
+Run the command npm start
+Open a command prompt in the "client" folder
+Run the command npm start
+A browser will open with the app
