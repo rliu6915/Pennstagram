@@ -22,9 +22,10 @@ Before you try to deploy the app in heroku, you should change the env variable i
 ![image](https://user-images.githubusercontent.com/93689757/208328012-05916aaa-5f46-436e-a921-f2401cc5b2a5.png)
 
 # UI Design:
+wireframes:
 1. Check the wireframes for all the pages in the link below. https://www.figma.com/file/hcvBmBlkprIlLE2zYBkVXh/Wireframes?node-id=509%3A23
-Prototype
 
+Prototype:
 2. Successful registration (include the homepage). https://www.figma.com/file/1mJ5ntXHg8miUl6NgVg1bv/User-Story?node-id=0%3A1
 
 3. Login -> homepage -> Profile page. https://www.figma.com/file/1mJ5ntXHg8miUl6NgVg1bv/User-Story?node-id=1%3A2
