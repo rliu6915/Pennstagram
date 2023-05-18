@@ -22,17 +22,17 @@ Before you try to deploy the app in heroku, you should change the env variable i
 ![image](https://user-images.githubusercontent.com/93689757/208328012-05916aaa-5f46-436e-a921-f2401cc5b2a5.png)
 
 # UI Design:
-wireframes:
-1. Check the wireframes for all the pages in the link below. https://www.figma.com/file/hcvBmBlkprIlLE2zYBkVXh/Wireframes?node-id=509%3A23
+Wireframes:
+- Check the wireframes for all the pages in the link below. https://www.figma.com/file/hcvBmBlkprIlLE2zYBkVXh/Wireframes?node-id=509%3A23
 
-Prototype:
-2. Successful registration (include the homepage). https://www.figma.com/file/1mJ5ntXHg8miUl6NgVg1bv/User-Story?node-id=0%3A1
+Prototypes:
+- Successful registration (include the homepage). https://www.figma.com/file/1mJ5ntXHg8miUl6NgVg1bv/User-Story?node-id=0%3A1
 
-3. Login -> homepage -> Profile page. https://www.figma.com/file/1mJ5ntXHg8miUl6NgVg1bv/User-Story?node-id=1%3A2
+- Login -> homepage -> Profile page. https://www.figma.com/file/1mJ5ntXHg8miUl6NgVg1bv/User-Story?node-id=1%3A2
 
-4. Login -> homepage -> upload a photo or a video. https://www.figma.com/file/hTUCqSL5pm1C2beY54iVTI/P3?node-id=52%3A7
+- Login -> homepage -> upload a photo or a video. https://www.figma.com/file/hTUCqSL5pm1C2beY54iVTI/P3?node-id=52%3A7
 
-5. Login -> homepage -> find and follow a user -> see their activity/posts on the main activity page. https://www.figma.com/file/hcvBmBlkprIlLE2zYBkVXh/Wireframes?node-id=557%3A29
+- Login -> homepage -> find and follow a user -> see their activity/posts on the main activity page. https://www.figma.com/file/hcvBmBlkprIlLE2zYBkVXh/Wireframes?node-id=557%3A29
 
 # Rest API Design:
 We use the MVC (Model-View-Controller) Restful architecture. Our interactive documentation of the Rest API is in the link below. https://app.swaggerhub.com/apis/cis557group32/Pennstagram/1.2.0
