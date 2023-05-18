@@ -21,7 +21,7 @@ Pennstagram is a photo sharing social networking MERN app created in 2022. This 
 ## Deployment with Heroku
 https://pennstagram.herokuapp.com
 
-## Remainder: 
+## Remainder
 Before you try to run the code in the localhost, you should change the env variable into 'development' mode in <mockapi.js> file. 
 
 Before you try to deploy the app in heroku, you should change the env variable into 'production' mode in <mockapi.js> file. 
@@ -36,7 +36,7 @@ To run the app locally, follow these steps:
 - Run the command npm start
 - A browser will open with the app
 
-## UI Design:
+## UI Design
 Wireframes:
 - Check the wireframes for all the pages in the link below. https://www.figma.com/file/hcvBmBlkprIlLE2zYBkVXh/Wireframes?node-id=509%3A23
 
@@ -49,7 +49,7 @@ Prototypes:
 
 - Login -> homepage -> find and follow a user -> see their activity/posts on the main activity page. https://www.figma.com/file/hcvBmBlkprIlLE2zYBkVXh/Wireframes?node-id=557%3A29
 
-## Rest API Design:
+## Rest API Design
 We use the MVC (Model-View-Controller) Restful architecture. Our interactive documentation of the Rest API is in the link below. https://app.swaggerhub.com/apis/cis557group32/Pennstagram/1.2.0
 
 ## Contributors 
