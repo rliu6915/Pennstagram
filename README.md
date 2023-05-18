@@ -42,8 +42,8 @@ https://app.swaggerhub.com/apis/cis557group32/Pennstagram/1.2.0
 # Instructions
 To run the app locally, follow these steps:
 
-Open a command prompt in the "api" folder
+Open a command prompt in the "backend" folder
 Run the command npm start
-Open a command prompt in the "client" folder
+Open a command prompt in the "pennstagram" folder
 Run the command npm start
 A browser will open with the app
