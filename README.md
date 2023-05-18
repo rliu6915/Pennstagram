@@ -13,15 +13,10 @@ Pennstagram is a photo sharing social networking MERN app created in 2022. This 
 <!-- * [License](#license) -->
 
 ## Main Tech Stack
-Frontend:
-- React
-
-Backend:
-- Express
-- Node.js
-
-Database:
-- MongoDB
+- React (Frontend)
+- Express (Backend)
+- Node.js (Backend)
+- MongoDB (Database)
 
 ## Features
 ✅ User registration ✅ Login/Auth ✅ Session management ✅ Security: account lockout policy ✅ @mentions in comments
