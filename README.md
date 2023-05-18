@@ -28,7 +28,7 @@ Before you try to deploy the app in heroku, you should change the env variable i
 
 ![image](https://user-images.githubusercontent.com/93689757/208328012-05916aaa-5f46-436e-a921-f2401cc5b2a5.png)
 
-## Instructions to run locally
+## Instructions to Run Locally
 To run the app locally, follow these steps:
 - Open a command prompt in the "backend" folder
 - Run the command npm start
