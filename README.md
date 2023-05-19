@@ -38,9 +38,9 @@ Before you try to deploy the app in heroku, you should change the env variable i
 ## Instructions to Run Locally
 To run the app locally, follow these steps:
 - Open a command prompt in the "backend" folder
-- Run the command npm start
+- Run the command npm install and npm start
 - Open a command prompt in the "pennstagram" folder
-- Run the command npm start
+- Run the command npm install and npm start
 - A browser will open with the app
 
 ## UI Design
