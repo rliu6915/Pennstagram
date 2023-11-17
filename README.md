@@ -36,10 +36,16 @@ Before you try to deploy the app in heroku, you should change the env variable i
 ![image](https://user-images.githubusercontent.com/93689757/208328012-05916aaa-5f46-436e-a921-f2401cc5b2a5.png)
 
 ## Instructions to Run Locally
-To run the app locally, follow these steps:
+Please contact me if you want run locally and ask for DB_USERNAME and DB_PASSWORD
+
+To run the app backend:
 - Open a command prompt in the "backend" folder
+- Add .env file at the root and create two variables DB_USERNAME and DB_PASSWORD in the file.
 - Run the command npm install and npm start
+
+To run the app frontend:
 - Open a command prompt in the "pennstagram" folder
+- Follow the instructions in [Remainder](#remainder)
 - Run the command npm install and npm start
 - A browser will open with the app
 
