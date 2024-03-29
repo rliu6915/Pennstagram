@@ -5,8 +5,8 @@ import axios from 'axios';
 // import { config } from 'dotenv';
 
 // config();
-// const env = 'development';
-const env = 'production';
+const env = 'development';
+// const env = 'production';
 
 const domain = env === 'development'
   ? 'http://localhost:8080'

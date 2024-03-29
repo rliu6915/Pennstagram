@@ -42,7 +42,7 @@ webapp.use(express.urlencoded({ extended: true }));
 webapp.use(express.json());
 
 // deployment
-webapp.use(express.static(path.join(__dirname, '../pennstagram/build')));
+// webapp.use(express.static(path.join(__dirname, '../pennstagram/build')));
 
 // (7) import the db interactions module
 // const { default: axios } = require('axios');
