@@ -26,7 +26,7 @@ Pennstagram is a photo sharing social networking MERN app created in 2022. This 
 ✅ Follow/unfollow users ✅ Follower suggestions ✅ Live updates ✅infinite scroll ✅ Privacy / Visibility control on photos
 
 ## Deployment with Heroku
-https://pennstagram.herokuapp.com
+https://pennstagram-481b2302c61d.herokuapp.com
 
 ## Remainder
 Before you try to run the code in the localhost, you should change the env variable into 'development' mode in <mockapi.js> file. 
