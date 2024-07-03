@@ -36,11 +36,13 @@ Before you try to deploy the app in heroku, you should change the env variable i
 ![image](https://user-images.githubusercontent.com/93689757/208328012-05916aaa-5f46-436e-a921-f2401cc5b2a5.png)
 
 ## Instructions to Run Locally
-Please contact me if you want run locally and ask for DB_USERNAME and DB_PASSWORD
+Please contact me if you want run locally:
+- Ask for DB_USERNAME and DB_PASSWORD for DB connection 
+- Ask for contact_your_ta_to_get_the_key and contact_your_ta_to_get_the_secret_key for AWS S3 connection 
 
 To run the app backend:
 - Open a command prompt in the "backend" folder
-- Add .env file at the root and create two variables DB_USERNAME and DB_PASSWORD in the file.
+- Add .env file at the root and create four variables (DB_USERNAME, DB_PASSWORD, contact_your_ta_to_get_the_key and contact_your_ta_to_get_the_secret_key) in the file.
 - Run the command npm install and npm start
 
 To run the app frontend:
