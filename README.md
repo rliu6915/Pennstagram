@@ -9,6 +9,7 @@ Pennstagram is a photo sharing social networking MERN app created in 2022. This 
 * [Run Locally](#Instructions-to-run-locally)
 * [UI Design](#ui-design)
 * [Rest API Design](#rest-api-design)
+* [Demo](#demo)
 * [Contributors](#contributors)
 <!-- * [License](#license) -->
 
@@ -66,6 +67,9 @@ Prototypes:
 
 ## Rest API Design
 We use the MVC (Model-View-Controller) Restful architecture. Our interactive documentation of the Rest API is in the link below. https://app.swaggerhub.com/apis/cis557group32/Pennstagram/1.2.0
+
+## Demo
+The demo video is uploaded [here](). The demo is just for simple demonstration. It does not contain all the features we have. If you want to know more about the features, feel free to contact me.
 
 ## Contributors 
 This is a group project done by myself and other two teamates.
