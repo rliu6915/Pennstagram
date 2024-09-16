@@ -1,4 +1,7 @@
 # Overview
+[![video](https://img.shields.io/badge/Presentation-Video-F9D371)](https://www.youtube.com/watch?v=3mqu6N4_0pY&t)
+[![deployment](https://img.shields.io/badge/Presentation-Heroku-B762C1)](https://drive.google.com/file/d/19wKhnQtr3mcD6IsLj0ZFSwCgIRKUkDQJ/view?usp=sharing)
+
 Pennstagram is a photo sharing social networking MERN app created in 2022. This app allows users to upload posts publicly or keep the posts only visible to themselves. As a social networking app, Pennstagram also allows users to browse other users' profile contents, like and comment photos and mention other users in a post. Users can follow/unfollow other users and they can get personal follower suggestions according to our recommendation rules. Session management and Security setting are also considered in our app.
 
 ## Table of Contents
