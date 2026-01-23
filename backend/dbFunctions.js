@@ -4,7 +4,7 @@
 // this is a node app, we must use commonJS modules/ require
 
 // import the mongodb driver
-const { MongoClient } = require('mongodb');
+const { MongoClient, ServerApiVersion } = require('mongodb');
 
 // import ObjectID
 const { ObjectId } = require('mongodb');
@@ -12,9 +12,9 @@ const { ObjectId } = require('mongodb');
 // the mongodb server URL
 // const userName = process.env.DB_USERNAME;
 // const password = process.env.DB_PASSWORD;
-const dbURL = process.env.DB_URL;
 // put the project name before the question mark
 // const dbURL = `mongodb+srv://${userName}:${password}@cluster0.8mojuiy.mongodb.net/Pennstagram?retryWrites=true&w=majority`;
+const dbURL = process.env.DB_URL
 
 // three posts per page -scroll
 const postPerPage = 3;
@@ -29,15 +29,25 @@ let MongoConnection;
 const connect = async () => {
   // always use try/catch to handle any exception
   try {
-    MongoConnection = (await MongoClient.connect(
-      dbURL,
-      { useNewUrlParser: true, useUnifiedTopology: true },
-    )); // we return the entire connection, not just the DB
+    const client = new MongoClient(dbURL, {
+      serverApi: {
+        version: ServerApiVersion.v1,
+        strict: true,
+        deprecationErrors: true,
+      }
+    });
+    await client.connect();
+    MongoConnection = client
+    // MongoConnection = (await MongoClient.connect(
+    //   dbURL,
+    //   // { useNewUrlParser: true, useUnifiedTopology: true },
+    // )); // we return the entire connection, not just the DB
     // check that we are connected to the db
-    console.log(`connected to db: ${MongoConnection.db().databaseName}`);
+    console.log(`connected to db: ${MongoConnection.db("Pennstagram").databaseName}`);
     return MongoConnection;
   } catch (err) {
-    console.log(err.message);
+    console.error("Connection error:", err.message);
+    throw err; 
   }
 };
 /**
@@ -49,7 +59,7 @@ const getDB = async () => {
   if (!MongoConnection) {
     await connect();
   }
-  return MongoConnection.db();
+  return MongoConnection.db("Pennstagram");
 };
 
 /**
