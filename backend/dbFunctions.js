@@ -10,10 +10,11 @@ const { MongoClient } = require('mongodb');
 const { ObjectId } = require('mongodb');
 
 // the mongodb server URL
-const userName = process.env.DB_USERNAME;
-const password = process.env.DB_PASSWORD;
+// const userName = process.env.DB_USERNAME;
+// const password = process.env.DB_PASSWORD;
+const dbURL = process.env.DB_URL;
 // put the project name before the question mark
-const dbURL = `mongodb+srv://${userName}:${password}@cluster0.8mojuiy.mongodb.net/Pennstagram?retryWrites=true&w=majority`;
+// const dbURL = `mongodb+srv://${userName}:${password}@cluster0.8mojuiy.mongodb.net/Pennstagram?retryWrites=true&w=majority`;
 
 // three posts per page -scroll
 const postPerPage = 3;
